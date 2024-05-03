@@ -1,0 +1,41 @@
+/*Rolling Exercise CSS Part B*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+.header {
+  padding: 30px;
+  text-align: center;
+  background: rgb(122, 89, 156);
+  color: #fff;
+}
+h2 {
+  color: rgb(122, 89, 156);
+}
+h5 {
+  color: rgb(122, 165, 226);
+}
+.header h1 {
+  font-size: 50px;
+}
+
+.frame {
+  width: 100%;
+  background: white;
+  padding: 5px;
+  margin-top: 20px;
+}
+.images {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+}
+.images img {
+  width: 100%;
+}

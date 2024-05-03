@@ -1,0 +1,188 @@
+body {
+  font-family: Arial;
+}
+/* Rolling Exercise CSS Part E Phase 2 */
+/* section-1 */
+
+.section1 {
+  background: linear-gradient(to right, #7500a7, #ff78eb);
+  width: auto;
+  height: 100vh;
+  padding: 100px;
+}
+
+.lista1 {
+  list-style-type: none;
+  padding: 25px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navegador1 {
+  margin: 0 10px; 
+}
+
+.secciones1 {
+  display: block;
+  padding: 0px 20px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+.secciones1:hover {
+  color: rgb(255, 165, 185);
+}
+
+#img1 {
+  float: left;
+  height: 500px; 
+  width: auto; 
+  margin-right: 100px;
+  margin-left: 90px;
+}
+
+.text {
+  padding: 100px 0;
+}
+
+.titulo1 {
+  font-size: 45px;
+  color: white;
+  text-indent: 50px;
+}
+
+.button1 {
+  padding: 8px 16px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(255, 165, 185);
+  text-decoration: none;
+  border: solid;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.button1:hover {
+  background-color: #ff72a1;
+  color: white;
+  border-color: transparent;
+}
+
+
+/* button sticky */
+
+
+.sticky-img {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  width: 100px;
+  height: auto; 
+  padding: 100px;
+}
+
+.sticky-img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/* section-2 */
+
+
+.top2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.titulo2{
+  border-bottom: 2px solid; 
+  display: inline-block; 
+  padding-bottom: 5px;
+  color: #7500a7;
+}
+
+.sub-tituli2 {
+  color: #7500a7;
+}
+
+.flex-container2 {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around; 
+  align-items: flex-start;
+  min-height: 100vh;
+  margin-top: 10px;
+}
+
+.flex-item2 {
+  text-align: center;
+  flex: 1 0 auto; 
+  margin: 5px; 
+  box-sizing: border-box; 
+}
+
+.flex-item2 img {
+  max-width: 50%; 
+}
+
+.flex-item2 h1 {
+  margin: 0; 
+}
+
+.flex-item2 p {
+  margin: 10px 0; 
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+  /* section-1 */
+
+  .lista1 {
+    flex-direction: column;
+  }
+
+  .secciones1 {
+    border-bottom: 1px solid #ccc;
+  }
+
+#img1 {
+  display: none; 
+}
+
+.text1 {
+    padding: 20px; 
+    text-align: center;
+  }
+
+.titulo1 {
+    font-size: 24px; 
+    text-indent: 0;
+
+  }
+
+  /* button sticky */
+
+.button {
+    padding: 6px 12px; 
+    margin: 5px; 
+}
+.sticky-img {
+
+  width: 80px; 
+  height: auto; 
+  padding: 100px;
+  margin-bottom: 30%;
+}
+
+/* section-2 */
+
+.flex-item2 {
+    flex-basis: 100%; 
+  }
+
+}
